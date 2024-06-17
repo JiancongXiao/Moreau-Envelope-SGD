@@ -18,7 +18,7 @@ In adversarial machine learning, neural networks suffer from a significant issue
 
 The main argument of MEA is '--rho', default=None, type=float, help='MEA, coefficient of proximal term'.
 
-For MEA, rho>0. When rho is none, the algorithm is reduced to SWA.
+For MEA, rho>0. When rho is none, the algorithm is reduced to SWA. The code is adopted from two repositories [imrahulr](https://github.com/imrahulr/adversarial_robustness_pytorch) and [Rice et al., 2020](https://github.com/locuslab/robust_overfitting).
 
 ## Citation
 ```
