@@ -16,7 +16,7 @@ In adversarial machine learning, neural networks suffer from a significant issue
 
 ## Code
 
-'--rho', default=None, type=float, help='MEA, coefficient of proximal term'
+The main argument of MEA is '--rho', default=None, type=float, help='MEA, coefficient of proximal term'.
 
 For MEA, rho>0. When rho is none, the algorithm is reduced to SWA.
 
